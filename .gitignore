@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.moonos/
+*.tsbuildinfo
+.DS_Store
+.idea/
+.playwright-cli/
+.workbuddy/
+backup.json
