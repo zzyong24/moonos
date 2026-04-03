@@ -7,3 +7,4 @@ dist/
 .playwright-cli/
 .workbuddy/
 backup.json
+social_posts/
