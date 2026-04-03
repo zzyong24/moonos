@@ -18,3 +18,6 @@ export type { TraceEvent, TraceFilterOptions, TraceSummary } from "./trace/servi
 
 export { FalsificationReportGenerator } from "./reports/falsification.js";
 export type { FalsificationReport, FalsificationJudgment, ReportGenerationResult } from "./reports/falsification.js";
+
+export { WorkflowExecutor, ParamResolver, WorkflowService } from "./workflow/index.js";
+export type { ExecutorConfig, ExecuteOptions, ExecuteResult, ToolSchema, ResolveRequest, ResolveResult, McpCallFn, ExternalResolveFn, ResolverConfig, WorkflowSummary, LoadResult } from "./workflow/index.js";
